@@ -18,7 +18,7 @@ public class EagerSingleton {
 
 **One drawback :** The instance is created irrespective of it is required at runtime or not
 
-## Implementation 2 :
+## Implementation 2 : Lazy Initialization : Double checked locking
 ```java
 public class LazySingleton {
     private static volatile LazySingleton instance = null;
@@ -57,3 +57,7 @@ public class BillPughSingleton {
 }
 ```
 
+
+
+# References :
+https://howtodoinjava.com/design-patterns/creational/singleton-design-pattern-in-java
