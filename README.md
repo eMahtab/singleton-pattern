@@ -15,3 +15,7 @@ public class EagerSingleton {
     }
 }
 ```
+
+**One drawback :** The instance is created irrespective of it is required at runtime or not
+
+
